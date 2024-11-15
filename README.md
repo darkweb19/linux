@@ -25,7 +25,7 @@ Task 8: Find lines with words that start and end with a consonant, containing on
 bash
 
 ```bash
-grep -i '\b[b-df-hj-np-tv-z][aeiou]\*[b-df-hj-np-tv-z]\b' ~/YourFirstName3.txt
+grep -i '\b[b-df-hj-np-tv-z][aeiou]*[b-df-hj-np-tv-z]\b' ~/YourFirstName3.txt
 ```
 
 Task 9: Find lines with words containing no vowels (case-insensitive).
